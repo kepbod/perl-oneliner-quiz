@@ -30,8 +30,9 @@ git pull orgin master
 
 ## Useful resource
 
-* [perldoc](http://perldoc.perl.org/)
-* [pl](https://github.com/kepbod/pl)
+* [perldoc](http://perldoc.perl.org/): Document of perl.
+* [pl](https://github.com/kepbod/pl): Advanced perl one-liner.
+* [Command-line-text-processing](https://github.com/learnbyexample/Command-line-text-processing): Resource of command line text processing
 
 ## License
 
