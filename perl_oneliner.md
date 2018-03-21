@@ -1,13 +1,9 @@
-1. Question1: Add column 1 and column 2 to create colmn 3.
-
-input:
-
+### Question1: Add column 1 and column 2 to create colmn 3.
+* Input:
 ```
 1 2
 ```
-
-output:
-
+* Output:
 ```
 1 2 3
 ```
