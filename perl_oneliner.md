@@ -12,7 +12,7 @@
 perl -alne 'print "$_\t".($F[0]+$F[1])' question/test1 > answer/result1
 ```
 
-### Question 1: Output the sum of each column.
+### Question 2: Output the sum of each column.
 * Input:
 ```
 1 2 3
