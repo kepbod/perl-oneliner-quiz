@@ -23,3 +23,21 @@ perl -alne 'print "$_\t".($F[0]+$F[1])' question/test1 > answer/result1
 ```
 3 6 9
 ```
+* Answer:
+```
+perl -alne '$a+=$F[0];$b+=$F[1];$c+=$F[2];END{print "$a\t$b\t$c"}' question/test2 > answer/result2
+```
+
+### Question 3: Output the 1th and the -8th to the -2nd columns.
+* Input:
+```
+1 2 3 4 5 6 7 8 9 10
+1 2 3 4 5 6 7 8 9 10
+1 2 3 4 5 6 7 8 9 10
+```
+* Output:
+```
+1 3 4 5 6 7 8 9
+1 3 4 5 6 7 8 9
+1 3 4 5 6 7 8 9
+```
