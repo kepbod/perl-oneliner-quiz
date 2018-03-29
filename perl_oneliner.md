@@ -48,12 +48,14 @@ perl -alne '$"="\t";print "@F[0, -8..-2]"' question/test3 > answer/result3
 
 ### Question 4: Fetch rows from test4_2 with the same 1th column with test4_1.
 * Input:
-** test4_1
+
+test4_1
 ```
 id1
 id3
 ```
-** test4_2
+
+test4_2
 ```
 id1 3
 id2 5
