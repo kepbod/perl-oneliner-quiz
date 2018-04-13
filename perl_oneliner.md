@@ -68,3 +68,24 @@ id5 1
 id1 3
 id3 2
 ```
+* Answer:
+```
+perl -alne 'if($#F==0){$a{$_}++}else{print if $a{$F[0]}}' question/test4_1 question/test4_2 > answer/result4
+```
+
+### Question 4: Output the odd rows.
+* Input:
+```
+1
+2
+3
+4
+5
+6
+```
+* Output:
+```
+1
+3
+5
+```
