@@ -94,7 +94,7 @@ perl -alne 'if($#F==0){$a{$_}++}else{print if $a{$F[0]}}' question/test4_1 quest
 perl -alne 'print if $.%2==1' question/test5 > answer/result5
 ```
 
-### Question 6: Format every rows into specific format.
+### Question 6: Format each row into the specific format.
 * Input:
 ```
 38	Symbol a b	239
