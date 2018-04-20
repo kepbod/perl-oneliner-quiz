@@ -73,7 +73,7 @@ id3 2
 perl -alne 'if($#F==0){$a{$_}++}else{print if $a{$F[0]}}' question/test4_1 question/test4_2 > answer/result4
 ```
 
-### Question 4: Output the odd rows.
+### Question 5: Output the odd rows.
 * Input:
 ```
 1
@@ -88,4 +88,24 @@ perl -alne 'if($#F==0){$a{$_}++}else{print if $a{$F[0]}}' question/test4_1 quest
 1
 3
 5
+```
+* Answer:
+```
+perl -alne 'print if $.%2==1' question/test5 > answer/result5
+```
+
+### Question 6: Format every rows into specific format.
+* Input:
+```
+38	Symbol a b	239
+39	Symbol b b	389
+98	Symbol c b	391
+```
+**Columns are separated by tab**
+
+* Output:
+```
+Symbol_a_b	38	     239
+Symbol_b_b	39	     389
+Symbol_c_b	98	     391
 ```
