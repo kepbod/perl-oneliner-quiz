@@ -1,4 +1,4 @@
-# Perl One-liner Test
+# Perl One-liner Quiz
 
 ## Prerequisites
 
