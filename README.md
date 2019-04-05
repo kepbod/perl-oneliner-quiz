@@ -11,14 +11,14 @@
 1. Clone this repo to your computer
 
 ```
-git clone https://github.com/kepbod/perl-oneliner-test.git
+git clone https://github.com/kepbod/perl-oneliner-quiz.git
 ```
 
-2. Check the [perl_oneliner.md](https://github.com/kepbod/perl-oneliner-test/blob/master/perl_oneliner.md) to see the question of each one-liner command test.
+2. Check the [perl_oneliner.md](https://github.com/kepbod/perl-oneliner-quiz/blob/master/perl_oneliner.md) to see the question of each one-liner command test.
 
-3. Go to [the question folder](https://github.com/kepbod/perl-oneliner-test/tree/master/question) and convert each test file to corresponding result file in [the answer folder](https://github.com/kepbod/perl-oneliner-test/tree/master/answer) using perl one-liner command. For example, converting `question/test1` to `answer/result1`.
+3. Go to [the question folder](https://github.com/kepbod/perl-oneliner-quiz/tree/master/question) and convert each test file to corresponding result file in [the answer folder](https://github.com/kepbod/perl-oneliner-quiz/tree/master/answer) using perl one-liner command. For example, converting `question/test1` to `answer/result1`.
 
-4. Check the [perl_oneliner.md](https://github.com/kepbod/perl-oneliner-test/blob/master/perl_oneliner.md) to see the answer for each test.
+4. Check the [perl_oneliner.md](https://github.com/kepbod/perl-oneliner-quiz/blob/master/perl_oneliner.md) to see the answer for each test.
 
 5. This repo will be updated with time, and update to the latest question and answer.
 
@@ -36,4 +36,4 @@ git pull orgin master
 
 ## License
 
-See the [LICENSE](https://github.com/kepbod/perl-oneliner-test/blob/master/LICENSE.txt) file for license rights and limitations (MIT).
+See the [LICENSE](https://github.com/kepbod/perl-oneliner-quiz/blob/master/LICENSE.txt) file for license rights and limitations (MIT).
